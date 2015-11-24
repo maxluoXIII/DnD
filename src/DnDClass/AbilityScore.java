@@ -15,6 +15,10 @@ public class AbilityScore {
         
     }
     
+    public AbilityScore(String n) {
+        name = n;
+    }
+    
     public AbilityScore(String n, int s) {
         name = n;
         score = s;
